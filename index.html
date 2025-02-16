@@ -3,39 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chuck Norris Joke App</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Chuck Norris Joke</title>
+    <link rel="stylesheet" href="static/css/index.css">
 </head>
 <body>
     <div class="container">
         <h1>Chuck Norris Joke Generator</h1>
+
+        <p id="regole">Seleziona una categoria e clicca sul bottone per visualizzare a schermo uno scherzo su quell'argomento!</p>
         
         <label for="category">Seleziona una categoria:</label>
         <select id="category">
             <option value="none">Nessuna categoria</option>
-            <option value="animal">Animal</option>
-            <option value="career">Career</option>
-            <option value="celebrity">Celebrity</option>
-            <option value="dev">Dev</option>
-            <option value="explicit">Explicit</option>
+            <option value="animal">Animali</option>
+            <option value="career">Carriera</option>
+            <option value="celebrity">Celebrità</option>
+            <option value="dev">Sviluppatori</option>
+            <option value="explicit">Esplicito</option>
             <option value="fashion">Fashion</option>
-            <option value="food">Food</option>
-            <option value="history">History</option>
-            <option value="money">Money</option>
-            <option value="movie">Movie</option>
-            <option value="music">Music</option>
-            <option value="political">Political</option>
-            <option value="religion">Religion</option>
-            <option value="science">Science</option>
+            <option value="food">Cibo</option>
+            <option value="history">Storia</option>
+            <option value="money">Soldi</option>
+            <option value="movie">Film</option>
+            <option value="music">Musica</option>
+            <option value="political">Politica</option>
+            <option value="religion">Religione</option>
+            <option value="science">Scienza</option>
             <option value="sport">Sport</option>
-            <option value="travel">Travel</option>
+            <option value="travel">Viaggi</option>
         </select>
 
-        <button id="loadJokeBtn">Load Joke</button>
+        <button id="loadJokeBtn">Carica lo scherzo!</button>
 
         <div id="jokeContainer"></div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="static/js/script.js"></script>
 </body>
 </html>
